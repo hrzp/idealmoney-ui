@@ -1,0 +1,1 @@
+# idealmoney-ui
