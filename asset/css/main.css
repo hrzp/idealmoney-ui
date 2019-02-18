@@ -285,8 +285,9 @@ a {
 
 .main .partner .content .head .title{
   font-family: proxima-light;
-  font-size: 10vmin;
+  font-size: 7vmin;
   margin-bottom: 20vmin;
+  color: #4988d6;
 }
 
 .main .partner .content .description {
@@ -311,9 +312,8 @@ a {
   margin-top: 2vmin;
 }
 
-.main .partner .left-side:hover {
+.main .partner .left-side img:hover {
   cursor: pointer;
-  -webkit-filter: brightness(25%);
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -323,6 +323,11 @@ a {
 
 .main .partner .left-side img{
   height: 13vmin;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 .main .partner .left-side span{
@@ -330,9 +335,8 @@ a {
   font-family: proxima-regular;
 }
 
-.main .partner .right-side:hover {
+.main .partner .right-side img:hover {
   cursor: pointer;
-  -webkit-filter: brightness(25%);
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -342,6 +346,11 @@ a {
 
 .main .partner .right-side img{
   height: 18vmin;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 .main .partner .right-side p{
@@ -383,6 +392,11 @@ a {
 #blogs{
   background-image: url(../image/blogs.jpg);
 }
+
+/*#partner {
+	background-image: url(https://i1.wp.com/www.solidbackgrounds.com/images/2880x1800/2880x1800-pastel-blue-solid-color-background.jpg);
+}*/
+
 
 /*Adding background for the slides
 * --------------------------------------- */
