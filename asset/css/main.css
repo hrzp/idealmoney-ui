@@ -280,6 +280,75 @@ a {
   border-color: #ffffff;
 }
 
+/* partner Section
+* --------------------------------------- */
+
+.main .partner .content .head .title{
+  font-family: proxima-light;
+  font-size: 10vmin;
+  margin-bottom: 20vmin;
+}
+
+.main .partner .content .description {
+  font-family: proxima-light;
+  font-size: 4vmin;
+}
+.main .partner .content .read-more {
+  height: 1vmin;
+  margin: 3vmin;
+}
+.main .partner .content .read-more .btn{
+  font-family: proxima-regular;
+  font-size: 2.3vmin;
+  margin: 2vmin;
+  color: #ffffff;
+  width: 22vmin;
+  height: 7vmin;
+  border-color: #ffffff;
+}
+
+.main .partner .left-side {
+  margin-top: 2vmin;
+}
+
+.main .partner .left-side:hover {
+  cursor: pointer;
+  -webkit-filter: brightness(25%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.main .partner .left-side img{
+  height: 13vmin;
+}
+
+.main .partner .left-side span{
+  font-size: 5vmin;
+  font-family: proxima-regular;
+}
+
+.main .partner .right-side:hover {
+  cursor: pointer;
+  -webkit-filter: brightness(25%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.main .partner .right-side img{
+  height: 18vmin;
+}
+
+.main .partner .right-side p{
+  font-size: 5vmin;
+  font-family: proxima-regular;
+}
+
 /* Blog Section
 * --------------------------------------- */
 
