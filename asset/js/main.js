@@ -8,7 +8,7 @@ var myFullpage = new fullpage('#main', {
     // fadingEffect: true,
     licenseKey: 'C74E309E-891D44FF-980DCF32-4E4E704B',
     menu: '#myMenu',
-    anchors: ['home', 'ourphilosophy', 'etherbank', 'partners','blog-page', 'f'],
+    anchors: ['home', 'ourphilosophy', 'intro','etherbank', 'partners','blog-page', 'f'],
 });
 
 function changeOpacity(bl, wh) {
